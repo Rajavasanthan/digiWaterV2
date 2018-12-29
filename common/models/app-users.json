@@ -1,0 +1,26 @@
+{
+  "name": "AppUsers",
+  "plural": "AppUsers",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "profilePicture": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "stores": {
+      "type": "hasMany",
+      "model": "Store"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,7 @@
+{
+  "db": {
+    "url": "mongodb://vasanth:vasanth7788@ds021979.mlab.com:21979/digiwaterv2",
+    "name": "db",
+    "connector": "loopback-connector-mongodb"
+  }
+}
